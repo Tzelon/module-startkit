@@ -8,8 +8,7 @@
     "dev": "node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js --hot --progress --colors --port 4002 --open --content-base",
     "prebuild": "npm run build:clean",
     "build": "cross-env NODE_ENV=production webpack --config ./webpack/webpack.prod.config.js --color -p --progress",
-    "build:clean": "node_modules/.bin/rimraf ./build",
-    "postinstall": "npm run build"
+    "build:clean": "node_modules/.bin/rimraf ./build"
   },
   "repository": {
     "type": "git",
