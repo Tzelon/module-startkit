@@ -8,7 +8,6 @@ yarn-error.log*
 #IDE
 .idea/
 
-build/
 # Runtime data
 pids
 *.pid
