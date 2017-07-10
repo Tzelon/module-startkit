@@ -1,4 +1,11 @@
-# react-grid-system
-Grid system for react 
+# module-startkit
+Quick way to build node module
 
-Build using react-grid-layout (https://github.com/STRML/react-grid-layout)
+### Features
+- ES6
+- React- Hot reload
+- Webpack Dev server
+
+##### Todo:
+- Add test system
+Build using react-grid-layout (https://github.com/STRML/react-grid-layout)uiyt
