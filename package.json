@@ -7,6 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "node_modules/.bin/webpack-dev-server --config ./webpack/webpack.dev.config.js --hot --progress --colors --port 4002 --open --content-base",
     "prebuild": "npm run build:clean",
+    "dist": "node_modules/.bin/babel --stage 0 --out-dir ./dist ./src",
     "build": "cross-env NODE_ENV=production webpack --config ./webpack/webpack.prod.config.js --color -p --progress",
     "build:clean": "node_modules/.bin/rimraf ./build"
   },
