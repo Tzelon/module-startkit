@@ -8,4 +8,3 @@ Quick way to build node module
 
 ##### Todo:
 - Add test system
-Build using react-grid-layout (https://github.com/STRML/react-grid-layout)uiyt
