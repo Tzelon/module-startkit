@@ -79,6 +79,9 @@ module.exports = (options) => ({
   ]),
   resolve: {
     modules: ['src', 'node_modules'],
+    alias: {
+      'module-startkit': path.resolve(process.cwd(), 'index.dev.js')
+    },
     extensions: [
       '.js',
       '.jsx',

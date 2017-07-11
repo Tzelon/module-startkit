@@ -5,7 +5,7 @@
   "main": "./index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node_modules/.bin/webpack-dev-server --config ./webpack.dev.config.js --hot --progress --colors --port 4002 --open --content-base",
+    "dev": "node_modules/.bin/webpack-dev-server --config ./webpack.dev.config.js --progress --colors --port 4002 --open --content-base",
     "prebuild": "npm run build:clean",
     "build": "node_modules/.bin/babel --stage 0 --out-dir ./dist ./src",
     "build:clean": "node_modules/.bin/rimraf ./build"
@@ -40,6 +40,7 @@
     "babel-preset-stage-0": "^6.24.1",
     "circular-dependency-plugin": "^3.0.0",
     "cross-env": "^5.0.1",
+    "css-loader": "^0.28.4",
     "eslint": "^3.19.0",
     "eslint-config-airbnb": "15.0.1",
     "eslint-config-airbnb-base": "11.2.0",
@@ -54,6 +55,7 @@
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "rimraf": "^2.6.1",
+    "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
     "webpack-dev-server": "^2.5.0"
   },
@@ -178,4 +180,3 @@
     }
   }
 }
-
