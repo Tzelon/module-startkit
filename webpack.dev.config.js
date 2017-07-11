@@ -14,7 +14,7 @@ const plugins = [
 module.exports = require('./webpack.base')({
   entry: [
     'eventsource-polyfill', // Necessary for hot reloading with IE
-    path.resolve(process.cwd(), 'src/index.js'),
+    path.resolve(process.cwd(), 'examples/index.js'),
   ],
 
   output: {
